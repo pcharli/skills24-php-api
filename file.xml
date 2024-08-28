@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<todos>
+    <owner>
+        <firstname>Pierre</firstname>
+        <lastname>Charlier</lastname>
+        <description>
+        <![CDATA[<h1>Titre de la description</h1>
+            <p>lorem ipsum]]>
+        </description>
+    </owner>
+    <items>
+        <todo done="false" key="1">
+            <label>Découvrir XML</label>
+            <attachment url="fichier1.txt" />
+        </todo>
+        <todo done="true">
+            <label>Découvrir JS</label>
+        </todo>
+    </items>
+</todos>

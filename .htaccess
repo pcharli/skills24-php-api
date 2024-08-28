@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule perdu.html$ trouve.html [L]
+RewriteRule auth$ auth.php [L]
+RewriteRule ^([a-zA-Z]+)/([0-9]+)$ index.php?route=$1&id=$2 [L]
+RewriteRule ^([a-zA-Z]+)$ index.php?route=$1 [L,QSA]
